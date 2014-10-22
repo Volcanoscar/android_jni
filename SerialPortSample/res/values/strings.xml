@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">SerialPortSample</string>
+    <string name="app_name">SerialPortSample</string>
+    <string name="about_msg">
+ *******************************************************\n
+*******************************************************\n
+这个例子是为了让读者更加熟悉中间件的知识.\n
+调用串口中间件设置波特率，打开或者关闭串口.\n
+使用serialport的API和各种方法来实现发送和接受数据 .\n
+*******************************************************\n
+*******************************************************\n</string>
+    <string name="error_configuration">请设置你的串口！</string>
+    <string name="error_security">你对串口没有读写权限，具体请参看SerialPortSample文件夹中的ReaderMe文本！</string>
+    <string name="error_unknown">串口因为某种原因没有打开！</string>
+
+    <string name="reception_hint">Reception</string>
+    <string name="emission_hint">Emission</string>
+    <string name="recetion">*通过串口接受输入到超级终端的字符*</string>
+    <string name="emission">*输入字符后通过串口发送到超级终端*</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:gravity="center"
+        android:text="@string/hello"
+        android:textSize="40px" />
+
+    <TableRow
+        android:id="@+id/TableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/reception"
+            android:layout_width="fill_parent"
+            android:layout_height="125px"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:hint="@string/reception_hint"
+            android:textSize="20px" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="50px"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recetion"
+            android:textSize="20px" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="220px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250px"
+            android:text="Clear"
+            android:textSize="25px" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="190px"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/emission"
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:hint="@string/emission_hint"
+            android:textSize="20px" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emission"
+            android:textSize="20px" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="220px"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textSize="25px" android:layout_marginLeft="250px"/>
+    </TableRow>
+
+</TableLayout>
